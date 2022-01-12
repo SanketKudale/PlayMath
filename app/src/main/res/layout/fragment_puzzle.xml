@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.puzzle.PuzzleFragment">
+
+    <TextView
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#1E4E7E"/>
+
+    <TextView
+        android:id="@+id/titlea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/title_puzzles"
+        android:textColor="#FDD835"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/shojumaru"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclea1"
+        android:layout_below="@+id/titlea1"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

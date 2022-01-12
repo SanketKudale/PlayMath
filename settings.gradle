@@ -1,0 +1,2 @@
+rootProject.name='FunPlay'
+include ':app'

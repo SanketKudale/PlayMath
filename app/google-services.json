@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103016234895",
+    "firebase_url": "https://funplay-1dbe1.firebaseio.com",
+    "project_id": "funplay-1dbe1",
+    "storage_bucket": "funplay-1dbe1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103016234895:android:6bdd22ade497236b6295fa",
+        "android_client_info": {
+          "package_name": "com.sanket.funplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103016234895-a3ils4lapcedvo288ctc0r70rha6ge8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQFEGqgXqdYzbzAJBOv8yavseBBMWrY6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103016234895-a3ils4lapcedvo288ctc0r70rha6ge8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

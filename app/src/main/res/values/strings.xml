@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name" translatable="false">FunPlay</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="language">Language</string>
+    <string name="title_contact">Contact</string>
+
+    <!--Language Options-->
+    <string-array name="languages">
+        <item>English</item>
+        <item>Marathi</item>
+        <item>Hindi</item>
+    </string-array>
+
+
+    <!--Menu-->
+    <string name="title_home">Home</string>
+    <string name="title_maths_tricks">Maths Tricks</string>
+    <string name="title_puzzles">Puzzles</string>
+
+
+    <!--Puzzles-->
+    <string name="solution">Solution</string>
+    <string name="puz1">Puzzle 1</string>
+    <string name="puz2">Puzzle 2</string>
+    <string name="puz3">Puzzle 3</string>
+    <string name="puz4">Puzzle 4</string>
+    <string name="puz5">Puzzle 5</string>
+    <string name="puz6">Puzzle 6</string>
+    <string name="puz7">Puzzle 7</string>
+    <string name="puz8">Puzzle 8</string>
+    <string name="puz9">Puzzle 9</string>
+    <string name="puz10">Puzzle 10</string>
+
+    <string name="p1">You are escaping a labyrinth, and there are three doors in front of you. The door on the left leads to a raging inferno. The door in the center leads to a deadly assassin. The door on the right leads to a lion that hasn\'t eaten in three months. Which door do you choose?</string>
+    <string name="s1">The door on the right. The lion would be dead after not eating for three months.</string>
+
+    <string name="p2">A man leaves home and makes three left turns, only to return home facing two men wearing masks. Who are those two men?</string>
+    <string name="s2">The person is a baseball player. The men are a catcher and an umpire.</string>
+
+    <string name="p3">A cow is tied to a 4 meter long rope. There is food, 20 meters away from the cow. However, the cow manages to go to the food and eat it. How come?</string>
+    <string name="s3">The rope is not tied to anything but the cow, so the cow is free to go to the food.</string>
+
+    <string name="p4">A cowboy walks into a bar and asks the barman for a glass of water. The barman pulls out a gun instead and points it at the man. The man genuinely says “Thank you” and walks out.</string>
+    <string name="s4">The cowboy had hiccups and needed water. The barman shocked him with his gun instead and that cured the hiccups.</string>
+
+    <string name="p5">You have ten lanterns, five of which are working, and five of which are broken. You are allowed to choose any two lanterns and make a test that tells you whether there is a broken lantern among them or not. How many tests do you need until you find a lantern you know for sure is working?
+\nRemark: If the test detects that there are broken lanterns, it does not tell you which ones and how many (one or two) they are.</string>
+    <string name="s5">You need 6 tests:
+(1, 2) → (3, 4) → (5, 6) → (7, 8) → (7, 9) → (8, 9)
+If at least one of these tests is positive, then you have found two working lanterns.
+It all of these tests are negative, then lantern #10 must be working. Indeed, since at least one lantern in each of the pairs (1, 2), (3, 4), (5, 6) is not working. Therefore, there are at least 2 working lanterns among #7, #8, #9, #10. If #10 is not working, then at least one of the pairs (7, 8), (7, 9), or (8, 9) must yield a positive test, which is a contradiction.</string>
+
+    <string name="p6">Place 8 queens on a chessboard, so that no two of them attack each other. For an extra challenge, make sure that no three of them lie on a straight line.</string>
+    <string name="s6">The original puzzle has 10 unique solutions, up to rotation and symmetry. With the additional restriction imposed, there is only one solution.</string>
+
+    <string name="p7">In 1990, a person is 15 years old. In 1995, that same person is 10 years old. How can this be?</string>
+    <string name="s7">The person was born in 2005 BC</string>
+
+    <string name="p8">You are given 3 boxes – one labeled “Apples”, one labeled “Bananas”, and one labeled “Apples and Bananas”. You are told that the labels on the boxes have been completely mismatched, i.e. none of the three labels is put on its correct box. How can you open just one box and pick a random fruit from it, so that after seeing the fruit, you can guess correctly the contents of every box out of the three?</string>
+    <string name="s8">Open the box labeled “Apples and Bananas”. If you pick a banana from it, then the box labeled “Bananas” will contain apples, and therefore the box labeled “Apples” will contain apples and bananas. Similarly, if you pick an apple from it, then the box labeled “Apples” will contain bananas, and therefore the box labeled “Bananas” will contain apples and bananas”.</string>
+
+    <string name="p9">There are 25 horses and you want to find the fastest 3 among them. You can race any 5 of the horses against each other and see the final standing, but not the running times. If all the horses have constant, permanent speeds, how many races do you need to organize in order to find the fastest 3?</string>
+    <string name="s9">Let us label the horses H1, H2, H3, H4, …, H24, H25.
+
+We race H1 – H5 and (without loss of generality) find that H1 > H2 > H3 > H4 > H5. We conclude that H4, H5 are not among the fastest 3.
+
+We race H6 – H10 and (without loss of generality) find that H6 > H7 > H8 > H9 > H10. We conclude that H9, H10 are not among the fastest 3.
+
+We race H11 – H15 and (without loss of generality) find that H11 > H12 > H13 > H14 > H15. We conclude that H14, H15 are not among the fastest 3.
+
+We race H16 – H20 and (without loss of generality) find that H16 > H17 > H18 > H19 > H20. We conclude that H19, H20 are not among the fastest 3.
+
+We race H21 – H25 and (without loss of generality) find that H21 > H22 > H23 > H24 > H25. We conclude that H24, H25 are not among the fastest 3.
+
+We race H1, H6, H11, H16, H21 and (without loss of generality) find that H1 > H6 > H11 > H16 > H21. We conclude that H16, H21 are not among the fastest 3.
+
+Now we know that H1 is the fastest horse and only H2, H3, H6, H7, H11 could complete the fastest three. We race them against each other and find which are the fastest two among them. We complete the task with only 7 races in total.</string>
+
+    <string name="p10">A Queen is captured in the top room of a very high tower, along with her son and daughter. Outside their window, there is a pulley with a rope around it, and two identical baskets fastened at the ends of the rope. The queens weigh 195lbs, the daughter weighs 105lbs, and the son weighs 90lbs. If any of them gets in a basket and weighs 15lbs more than the contents in the other basket, he/she will fall too fast and will die upon impact with the ground. How can the three escape the tower, using the two baskets and one 75lbs stone they have in their room?</string>
+    <string name="s10">1. The stone is sent down in a basket.\n
+2. The son goes down, the stone goes up.\n
+3. The daughter goes down, the son goes up.\n
+4. The stone is thrown back down.\n
+5. The queen goes down, the daughter and the stone go up.\n
+6. The stone goes down.\n
+7. The son goes down, the stone goes up.\n
+8. The daughter goes down, the son goes up.\n
+9. The stone is thrown back down.\n
+10. The son goes down, the stone goes up.</string>
+
+
+    <!--Maths Tricks-->
+    <string name="trick1">Trick 1</string>
+    <string name="trick2">Trick 2</string>
+    <string name="trick3">Trick 3</string>
+    <string name="trick4">Trick 4</string>
+    <string name="trick5">Trick 5</string>
+    <string name="trick6">Trick 6</string>
+    <string name="trick7">Trick 7</string>
+    <string name="trick8">Trick 8</string>
+    <string name="trick9">Trick 9</string>
+    <string name="trick10">Trick 10</string>
+
+    <string name="t1_1">1. Think of a number.</string>
+    <string name="t1_2">2. Multiply it by 3.</string>
+    <string name="t1_3">3. Add 6.</string>
+    <string name="t1_4">4. Divide this number by 3.</string>
+    <string name="t1_5">5. Subtract the number from Step 1 from the answer in Step 4.</string>
+    <string name="t1_6">The answer is 2.</string>
+
+    <string name="t2_1">1. Think of any three-digit number in which each of the digits is the same. Examples include 333, 666, 777, and 999.</string>
+    <string name="t2_2">2. Add up the digits.</string>
+    <string name="t2_3">3. Divide the three-digit number by the answer in Step 2.</string>
+    <string name="t2_4">The answer is 37.</string>
+
+    <string name="t3_1">1. Select a number from 1 to 6.</string>
+    <string name="t3_2">2. Multiply the number by 9.</string>
+    <string name="t3_3">3. Multiply it by 111.</string>
+    <string name="t3_4">4. Multiply it by 1001.</string>
+    <string name="t3_5">5. Divide the answer by 7.</string>
+    <string name="t3_6">The number will contain the digits 1, 2, 4, 5, 7, and 8.</string>
+
+    <string name="t4_1">1. Think of a number.</string>
+    <string name="t4_2">2. Add 4, then multiply the result by 4.</string>
+    <string name="t4_3">3. Subtract 8, then divide the result by 4.</string>
+    <string name="t4_4">4. Finally take away your original secret number.</string>
+    <string name="t4_5">The answer is 2.</string>
+
+    <string name="t5_1">1. Think of a number.</string>
+    <string name="t5_2">2. Double it.</string>
+    <string name="t5_3">3. Add 9, then subtract 3 and then divide by 2.</string>
+    <string name="t5_4">4. Subtract your original number.</string>
+    <string name="t5_5">The answer is 3.</string>
+
+    <string name="t6_1">1. Think of any three-digit number.</string>
+    <string name="t6_2">2. Add 7 then multiply by 2.</string>
+    <string name="t6_3">3. Subtract 4, then divide the result by 2.</string>
+    <string name="t6_4">4. Subtract it from the original number you thought of.</string>
+    <string name="t6_5">The answer is 5.</string>
+
+    <string name="t7_1">1. Write down any two different numbers from 1 to 9. Then reverse the two numbers.</string>
+    <string name="t7_2">2. You should have two two-digit numbers.</string>
+    <string name="t7_3">3. Subtract the smaller number from the larger one.</string>
+    <string name="t7_4">4. Take the result, reverse the digits, and add that number to the one you got when you subtracted.</string>
+    <string name="t7_5">The answer is 99</string>
+
+    <string name="t8_1">1. Think of a three digit number, where the digits are in descending order. Example:321</string>
+    <string name="t8_2">2. Reverse the number and subtract it from original number.</string>
+    <string name="t8_3">3. Reverse the difference and add it with original difference.</string>
+    <string name="t8_4">The answer is 1089.</string>
+
+    <string name="t9_1">1. Add 18 to your birth month.</string>
+    <string name="t9_2">2. Mulltiply it by 25.</string>
+    <string name="t9_3">3. Subtract 333, then multiply by 8.</string>
+    <string name="t9_4">4. Subtract 554 and divide by 2.</string>
+    <string name="t9_5">5. Add your birth date and multiply it by 5.</string>
+    <string name="t9_6">6. Add 692 and multiply by 20.</string>
+    <string name="t9_7">7. Add only the last two digits of the birth year.</string>
+    <string name="t9_8">8. Subtract 32940.</string>
+    <string name="t9_9">Now the first digit is your birth month, next two digits is your birth date and last two digits are the last two digits from your birth year</string>
+
+    <string name="t10_1">1. Think of a number.</string>
+    <string name="t10_2">2. Subtract one from it.</string>
+    <string name="t10_3">3. Multiply by 3 and add 12 to it.</string>
+    <string name="t10_4">4. Divide by 3 and add 5.</string>
+    <string name="t10_5">5. Subtract the original number.</string>
+    <string name="t10_6">The answer is 8.</string>
+
+
+    <!--Home Page-->
+    <string name="instruction_home">Find out the beginning and ending of below staircase if you can.</string>
+
+    <!--About Us Page-->
+    <string name="d_line1">To contact developer</string>
+    <string name="d_contact1">7775029787</string>
+    <string name="d_mail1">sksanketkudale@gmail.com</string>
+
+</resources>
